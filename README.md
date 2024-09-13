@@ -2,6 +2,7 @@
 
 
    Initialization
+   
         Models and Embeddings:
              Primary_model ---An instance of ChatGoogleGenerativeAI with a specific model configuration (gemini-pro). This 
                               model is used for generating answers based on the content of the PDF and additional 
@@ -17,6 +18,7 @@
    
    
    Functions
+   
         Validate_pdf(file)
              Purpose: Checks if the uploaded file is a valid PDF.
              Method: Uses fitz (PyMuPDF) to open the file and verify that it has at least one page.
@@ -51,6 +53,7 @@
    
    
    Gradio Interface
+   
          Interface Definition:
               Inputs:
                    gr.File: For uploading the PDF file.
