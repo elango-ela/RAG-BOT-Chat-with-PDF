@@ -3,12 +3,12 @@
 
    Initialization
         Models and Embeddings:
-             primary_model ---An instance of ChatGoogleGenerativeAI with a specific model configuration (gemini-pro). This 
+             Primary_model ---An instance of ChatGoogleGenerativeAI with a specific model configuration (gemini-pro). This 
                               model is used for generating answers based on the content of the PDF and additional 
                               knowledge.
-             embeddings    ---An instance of GoogleGenerativeAIEmbeddings for generating text embeddings from the PDF 
+             Embeddings    ---An instance of GoogleGenerativeAIEmbeddings for generating text embeddings from the PDF 
                               content.
-             fallback_model---Another instance of ChatGoogleGenerativeAI with different temperature settings for fallback 
+             Fallback_model---Another instance of ChatGoogleGenerativeAI with different temperature settings for fallback 
                               scenarios when the primary model cannot provide an answer.
 
 
@@ -17,21 +17,21 @@
    
    
    Functions
-        validate_pdf(file)
+        Validate_pdf(file)
              Purpose: Checks if the uploaded file is a valid PDF.
              Method: Uses fitz (PyMuPDF) to open the file and verify that it has at least one page.
              Returns: True if valid, otherwise False.
-        load_pdf(file)
+        Load_pdf(file)
              Purpose: Extracts text from each page of the PDF.
              Method : Utilizes pdfplumber to open the PDF and extract text. If a page contains no text, it appends a 
                       placeholder message.
              Returns: A list of text strings, one per page, or an error message if the PDF cannot be read.
-         get_fallback_answer(question)
+        Get_fallback_answer(question)
              Purpose: Provides an answer using a fallback model if the primary model fails to generate a satisfactory 
                       response.
              Method: Constructs a prompt for the fallback model and queries it.
              Returns: The answer from the fallback model or an error message if the model fails.
-         process_pdf_and_answer_question(pdf_file, question)
+        Process_pdf_and_answer_question(pdf_file, question)
              Purpose: Manages the complete process of validating, loading, and querying the PDF.
              Method:
                     Converts the PDF file to a file-like object.
