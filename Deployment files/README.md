@@ -8,10 +8,9 @@ sdk_version: 4.44.0
 app_file: app.py
 pinned: false
 ---
+[link][https://huggingface.co/spaces/Inela/RAGBOT]
 
-
-
-PDF Q&A System
+RAGBOT 
 
 Overview
 
