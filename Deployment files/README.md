@@ -28,7 +28,7 @@ RAGBOT
 4.Setup
 
 
-     API Keys:Replace google_api_key in the script with your actual Google API key.
+     API Keys           :Replace google_api_key in the script with your actual Google API key.
      Directory Structure:The script will create the 'static' directory if it does not already exist.
 
 5.Code Explanation
@@ -38,14 +38,11 @@ RAGBOT
             The extract_text_from_pdf function extracts text from the uploaded PDF.
             The validate_pdf function ensures the PDF contains extractable text.
 
-
      Question Answering:
             The process_pdf_and_answer_question function handles the logic for processing the PDF, generating answers, and managing conversation history.
 
-
      Fallback Mechanism:
             If the primary model cannot provide a satisfactory answer, the get_fallback_answer function queries a fallback model for a general knowledge-based answer.
-
 
      PDF Generation:
             The generate_pdf function creates a PDF document from the conversation history.
