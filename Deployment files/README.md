@@ -1,4 +1,4 @@
-[LIVE WEB APP][https://huggingface.co/spaces/Inela/RAGBOT]
+[LIVE RAG APP][https://huggingface.co/spaces/Inela/RAGBOT]
 
 RAGBOT 
 
