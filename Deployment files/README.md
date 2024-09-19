@@ -50,4 +50,11 @@
      PDF Generation:
             The generate_pdf function creates a PDF document from the conversation history.
 
+
+6.Deployment
+
+
+
+     Running in Huggingface Space
+
      
