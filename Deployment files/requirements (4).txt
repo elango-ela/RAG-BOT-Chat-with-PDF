@@ -1,0 +1,14 @@
+reportlab
+langchain==0.3.0
+pdfminer.six
+langchain-community==0.3.0
+langchain_google_genai
+PyPDF2
+pypdf==4.3.1
+chromadb==0.5.5
+gradio==4.44.0
+pdfplumber
+fitz
+pymupdf==1.24.10
+frontend
+tools
