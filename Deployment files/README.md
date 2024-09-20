@@ -24,7 +24,7 @@
      1.Python: The primary programming language used for development.
      2.pdfminer.six: For extracting text from PDF files.
      3.Gradio: For creating the web interface.
-     4.Langchain: For text splitting, vector storage, and retrieval-based question answering.
+     4.Langchain: For text splitting, vector storage(Chroma DB), and retrieval-based question answering.
      5.Google Generative AI: For generating answers based on content and general knowledge.
      6.ReportLab: For generating PDFs from text content.
 
