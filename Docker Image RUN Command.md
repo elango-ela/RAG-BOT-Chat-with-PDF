@@ -4,4 +4,4 @@ Step 2: Enter this command in cmd to run this RAGBOT space locally(Please replac
 
 
 
-docker run -it -p 7860:7860 --platform=linux/amd64 \ -e api_key="YOUR_VALUE_HERE" \ registry.hf.space/inela-ragbot:latest python app.py
+     docker run -it -p 7860:7860 --platform=linux/amd64 \ -e api_key="YOUR_VALUE_HERE" \ registry.hf.space/inela-ragbot:latest python app.py
